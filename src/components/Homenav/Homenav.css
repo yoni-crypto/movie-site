@@ -1,0 +1,103 @@
+.nav{
+    width: 100%;
+    height: 200px;
+    background-image: url('./x.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -70px;
+
+}
+.homenavcontainer{
+    display: flex;
+   
+}
+.homenavcontainer .logo{
+    margin-left: 100px;
+}
+.homenavcontainer .homelist{
+    margin-left: 150px;
+}
+.homenavcontainer .homelist ul{
+    display: flex  ;
+    padding-right: 20px;
+    list-style: none;
+}
+.homenavcontainer .homelist ul li{
+    padding-right: 20px;
+}
+.homenavcontainer .homelist ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+span4{
+    background: rgb(8, 93, 108);
+    padding: 5px 5px 5px 0;
+    border-radius: 5px;
+
+}
+span5{
+    color: #fff;
+    background-color: rgb(242, 160, 7);
+    box-shadow: 0 0 2px rgb(242, 160, 7),
+    0 0 1px rgb(242, 160, 7),
+    0 0 2px rgb(240, 219, 179),
+    0 0 1px rgb(242, 160, 7);
+    padding: 5px;
+    border-radius: 5px;
+    width: 50px;
+}
+span6{
+    color: #fff;
+    padding: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.homenavcontainer button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color   : #000;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.homenavcontainer button a{
+    text-decoration: none;
+    color: #000;
+    border: none;
+
+}
+.paragraph{
+    color: #fff;
+    margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.sub-menu{
+    position: absolute;
+    top: 40px;
+    height: 60px;
+    background-color: #fff;
+    color: #000;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    
+}
+li:hover ul.sub-menu{
+    opacity: 1;
+    visibility: visible;
+    display: block;
+   
+}
+.sub-menu li a{
+    /* background-color: #000; */
+    color: #fff;
+}
+.sub-menu li{
+    float: none;
+    width: 100%;
+
+}

@@ -1,0 +1,101 @@
+.mainContainer{
+    flex: 3;
+    height: 100vh;
+    background-color:black;
+    position: relative;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+
+::-webkit-scrollbar{
+    width: 0px;
+    
+}
+.coverimage{
+    width: 62pc;
+    height: 45vh;
+    object-fit: cover;
+    margin-left: 40px;
+    border-radius: 30px;
+    position: relative;
+}
+.title{
+    color: #fff;
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: -170px;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subtitle{
+    color:#fff;
+    position: relative;
+    margin-top: -10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ItemsContainer{
+    margin-left: 70px;
+
+}
+.btnwatch{
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;padding-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(191,188,188);
+    background-color: rgb(68,68,68);
+    cursor: pointer;
+}
+
+.plus{
+    position: relative;
+    color: #fff;
+    font-size: 26px;
+    background-color: red;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submaintitle{
+    color: #fff;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-size: 23px;
+}
+.itemimage{
+    width: 140px;
+    height: 190px;
+    object-fit: cover;
+    position: relative;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border: 1px solid #4f4545;
+}
+.itemname{
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+.itemcontainer{
+    width: 140px;
+    background-color: rgb(93, 91, 91);
+    margin: 10px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+  
+}
+.btnitemcontainer{
+    padding:10px 39px 10px 39px ;
+    color:#fff;
+    border: 0;
+    border-radius: 10px;
+    background-color: red;
+}

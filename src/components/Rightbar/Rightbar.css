@@ -1,0 +1,19 @@
+.rightbarMainContainer{
+    flex: 0.11;
+    background-color: black;
+}
+.profileimage{
+    width: 33px;
+    object-fit: cover;
+    height: 33px;
+    border-radius: 50%;
+}
+.dott{
+    width :8px;  
+    height: 8px;
+    background-color: rgb(10, 238, 10);
+    border-radius: 50%;
+    margin-top: -12px;
+    position: relative;
+    
+}

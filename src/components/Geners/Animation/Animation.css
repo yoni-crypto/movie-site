@@ -1,0 +1,14 @@
+.actionContainer{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    row-gap: 20px;
+    padding: 10px 100px 0 100px;
+    /* margin-right: 100px; */
+    margin-left: 0px;
+    margin-top: 40px;
+    
+}
+.y{
+    flex-wrap: wrap;
+}
+

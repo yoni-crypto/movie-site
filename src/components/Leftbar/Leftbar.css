@@ -1,0 +1,75 @@
+.leftbarMainContainer{
+    flex: 0.7;
+    background-color: black;
+    height: 100vh;
+
+}
+.logoname{
+    color: #fff;
+    margin-left: 1rem;
+    font-weight: 400;
+}
+.dot{
+    color: red;
+    font-weight: 800;
+}
+.lilistname{
+    color: #ccc;
+    margin-left: 10px;
+}
+li{
+    color: #fff;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: -13px;
+}
+.menu{
+    color: darkgray;
+    margin-left: 1rem;
+}
+.listicons{
+    width: 20px;
+    height: 20px;
+    margin-left: -12px;
+}
+.lastimage{
+    width:2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-left: 70px;
+    margin-top: -20px;
+}
+.popcorn{
+    color: darkgray;
+    margin-left: 40px;
+    margin-top: -4px;
+}
+.viewingtime{
+    color: darkgray;
+    font-size: 11px;
+    margin-left: 49px;
+    margin-top: -10px;
+    position: relative;
+
+}
+.btnchallenges{
+    color: darkgray;
+    margin-left: 55px;
+    color: black;
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+
+}
+.lastleftbardiv{
+    margin-left: 30px;
+    background-color: #191414;
+    margin-right: 40px;
+    border-radius: 15px;
+    margin-top: 25px;
+    padding-bottom: 13px;
+
+}
